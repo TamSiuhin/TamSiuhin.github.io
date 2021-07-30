@@ -1,7 +1,7 @@
 ---
 title: 'NUS SWS 2021 (Online)'
-date: 2021-7-30
-permalink: /posts/2012/08/blog-post-1/
+date: 2021-07-30
+permalink: /posts/2021/07/2021 NUS Summer Workshop/
 tags:
   - Summer Workshop
   - Deep Learning

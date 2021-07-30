@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhaoxuan Tan"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Zhaoxuan Tan"
 description              : &description "CS undergraduate @Xi'an Jiaotong University"
