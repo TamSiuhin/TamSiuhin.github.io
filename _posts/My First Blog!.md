@@ -9,3 +9,4 @@ tags:
 ---
 
 #My First Blog!
+it's ridiculous that my blog can't work
