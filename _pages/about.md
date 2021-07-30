@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About Zhaoxuan Tan"
-excerpt: "About me"
+title: "Zhaoxuan Tan"
+excerpt: "Zhaoxuan Tan"
 author_profile: true
 redirect_from: 
   - /about/
