@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhaoxuan Tan"
+title                    : "1"
 title_separator          : "-"
-name                     : &name "Zhaoxuan Tan"
+name                     : &name "2"
 description              : &description "CS undergraduate @Xi'an Jiaotong University"
 url                      : https://tamsiuhin.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhaoxuan Tan"
+  name             : "3"
   avatar           : "profile.png"
   bio              : "Undergraduate major in Computer Science @Xi'an Jiaotong University"
   location         : "Xi'an, China"
@@ -254,7 +254,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Hong_Kong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
