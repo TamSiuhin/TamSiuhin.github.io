@@ -94,15 +94,15 @@ $$
 
 ## Problem of Non-identifiability
 
-### Equation 1: $Q^*(s,a)=V^*(s)+A^*(s,a)$
+### Equation 1: $Q^{*}(s,a)=V^{*}(s)+A^{*}(s,a)$
 
 * Problem of non-identifiability
-  * Let $V'=V^*+10$ and $A'=A^*-10$
-  * Then $Q^*(s,a)=V^*(s)+A^*(s,a)=V'(s)+A'(s,a)$
+  * Let $V'=V^{*}+10$ and $A'=A^{*}-10$
+  * Then $Q^{*}(s,a)=V^{*}(s)+A^{*}(s,a)=V'(s)+A'(s,a)$
 
 
 
-### Equation 2: $Q^*(s,a)=V^*(s)+A^*(s,a)-\max_a A^*(s,a)$
+### Equation 2: $Q^*(s,a)=V^{*}(s)+A^{*}(s,a)-\max_a A^{*}(s,a)$
 
 * Does not have the problem 
 
