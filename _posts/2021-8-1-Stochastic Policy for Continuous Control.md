@@ -1,3 +1,12 @@
+---
+title: 'Reinforcement Learning-Stochastic Policy for Continuous Control'
+date: 2021-08-01
+permalink: /posts/2021/08/Stochastic_continous/
+tags:
+  - Reinforcement Learning
+  - Deep Learning
+---
+
 # Reinforcement Learning-Stochastic Policy for Continuous Control
 
 ## Policy Network
