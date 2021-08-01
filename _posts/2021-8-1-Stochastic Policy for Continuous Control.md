@@ -72,22 +72,29 @@ $$
 
    ### Auxiliary Network
 
-   Stochastic policy gradient
+   Stochastic policy gradient  
+
    $$
    g(a)=\frac{\partial \ln\pi(a\vert s;\theta)}{\partial \theta}\cdot Q_\pi(s,a)
    $$
-   **Policy network is:**
+
+   **Policy network is:**  
+
    $$
    \pi(a\vert s;\theta^\mu,\theta^\rho)=\prod_{i=1}^d\frac{1}{\sqrt{2\pi}\sigma_i}\cdot\exp(-\frac{(a_i-\mu_i)^2}{2\sigma_i^2})
-   $$
-   Natural log of the policy network is 
+   $$  
+
+   Natural log of the policy network is   
+
    $$
    \begin{align}
    \ln\pi(a\vert s;\theta^\mu,\theta^\rho)&=\sum_{i=1}^{d}[-\ln\sigma_i=\frac{(a_i-\mu_i)^2}{2\sigma_i^2}]+\text{const}\\
    &=\sum_{i=1}^d[-\frac{\rho_i}{2}-\frac{(a_i-\mu_i)^2}{2\cdot\exp(\rho_i)}]+\text{const}
    \end{align}
-   $$
-   **Auxiliary Network**
+   $$  
+
+   **Auxiliary Network**  
+
    $$
    f(s,a;\theta)=\sum_{i=1}^d[-\frac{\rho_i}{2}-\frac{(a_i-\mu_i)^2}{2\cdot \exp(\rho_i)}]
    $$
@@ -98,9 +105,11 @@ $$
    #### Recap
 
    We have built three neural networks
+     
    $$
    \mu(s;\theta^\mu),\rho(s;\theta^\rho),f(s,a;\theta)
-   $$
+   $$  
+
 
 * $\mu(s,\theta^\mu)$ computes the mean (control agent)
 * $\rho(s;\theta^\rho)$ computes the log variance (control agent)
@@ -109,18 +118,24 @@ $$
 
 ### Policy Gradient
 
-Stochastic policy gradient
+Stochastic policy gradient  
+
 $$
 g(a)=\frac{\partial \ln\pi(a\vert s;\theta)}{\partial \theta}\cdot Q_\pi(s,a)
 $$
-Auxiliary network
+
+Auxiliary network  
+
 $$
 f(s,a;\theta)=\ln\pi(a\vert s;\theta)+\text{const}
 $$
-So that we have
+
+So that we have  
+
 $$
 g(a)=\frac{\partial f(s,a;\theta)}{\partial\theta}\cdot Q_\pi(s,a)
-$$
+$$  
+
 But $Q_\pi(s,a)$ is unknown, it needs approximation
 
 * REINFORCE
