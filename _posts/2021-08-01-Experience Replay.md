@@ -13,7 +13,7 @@ tags:
 
 ### Deep Q Network (DQN)
 
-![capture_20210801114907283](/images/EP1.bmp)
+![capture_20210801114907283](/images/ER1.bmp)
 
 Approximate the optimal action-value function, $Q^*(s,a)$, by $Q(s,a;w)$ (Deep Q Network)
 
@@ -81,7 +81,7 @@ $$
 * Not all transitions are equally important 
 * If a transition has high TD error $\vert\delta_t\vert$, it will be given high priority
 
-![capture_20210801135645608](/images/EP2.bmp)
+![capture_20210801135645608](/images/ER2.bmp)
 
 ### Scaling Probabilities
 
