@@ -39,7 +39,7 @@ $$
 
 * Approximate $\rho$ , by the neural network $\rho(s;\theta^\rho)$
 
-![capture_20210801094122922](D:\HONOR Magic-link\Screenshot\capture_20210801094122922.bmp)
+![capture_20210801094122922](/images/DP3.bmp)
 
 ## Continuous Control
 
