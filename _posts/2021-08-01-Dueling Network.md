@@ -101,7 +101,7 @@ Q^{*}(s,a)=V^{*}(s)+A^{*}(s,a)
 $$
 
 * Problem of non-identifiability
-  * Let $$V'=V^{*}+10$ and $A'=A^{*}-10$$
+  * Let $$V'=V^{*}+10$$ and $$A'=A^{*}-10$$
   * Then $$Q^{*}(s,a)=V^{*}(s)+A^{*}(s,a)=V'(s)+A'(s,a)$$
 
 
