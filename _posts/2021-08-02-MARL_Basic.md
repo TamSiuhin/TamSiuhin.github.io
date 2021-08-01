@@ -7,7 +7,7 @@ tags:
   - Deep Learning
 ---
 
-# Multi-Agent Reinforcement Learning
+# Multi-Agent Reinforcement Learning-Basic Concepts
 
 ## Settings
 
