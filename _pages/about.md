@@ -16,10 +16,10 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 
 # Academic Experiences
 
-* (2021.5-2021.7) **Summer Workshop**, Nation University of Singapore, Topic: building real-world web mining systems
+* (2021.5-2021.7) **Summer Workshop**, Nation University of Singapore, Topic: building real-world web mining systems<br>
   Advisor: Lek Hsiang Hui
 
-* (2021.3-present) **National Undergraduate Research Program**, Xi'an Jiaotong University, Topic: Intelligent formation control based purely on vision 
+* (2021.3-present) **National Undergraduate Research Program**, Xi'an Jiaotong University, Topic: Intelligent formation control based purely on vision<br> 
   Advisor: liangjun Ke
 
 # Honors and Awards
