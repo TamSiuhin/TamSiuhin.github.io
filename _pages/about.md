@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-## About me
-
 Hi, thanks for visiting my website! I am a junior undergraduate at Xi'an Jiaotong University, majoring in computer science and technology. My research interest is Reinforcement Learning and Deep Learning on Graphs. 
 
-## Education
+# Education
 
 I am a third-year undergraduate student in computer science at Xi'an Jiaotong University. So far I have received a GPA of 90.18/100.
 
-## Academic Experiences
+# Academic Experiences
 
 * (2021.5-2021.7) **Summer Workshop**, Nation University of Singapore, Topic: building real-world web mining systems
 
@@ -26,7 +24,7 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 
   Advisor: liangjun Ke
 
-## Honors and Awards
+# Honors and Awards
 
 * (2021.7) Top Project Runner Up, NUS Summer Workshop
 * (2021.2) Honorable Mentioned Prize (top 16%), Mathematical Contest in Modeling(MCM) 
@@ -35,6 +33,6 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 * (2020.10) Scholarship for Outstanding Students, Second Prize (rank 39/1200), Xi'an Jiaotong University
 * (2020.9) First Prize in Shaanxi Province, Contemporary Undergraduate Mathematical Contest in Model(CUMCM) 
 
-## Hobbies
+# Hobbies
 
 In my free time, I enjoy travelling, playing trumpet and running.
