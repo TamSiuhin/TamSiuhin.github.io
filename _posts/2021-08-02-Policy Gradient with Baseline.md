@@ -27,8 +27,6 @@ tags:
   \end{align}
   $$
 
-* 
-
 so that we have this **theorem**
 
 if $b$ is **independent** of $A$, then $E_{A\sim\pi}[b\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]=0$$
