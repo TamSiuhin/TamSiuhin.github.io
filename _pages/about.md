@@ -32,4 +32,4 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 
 # Hobbies
 
-In my free time, I enjoy travelling, playing trumpet and jogging.
+In my free time, I enjoy playing trumpet and jogging.
