@@ -28,7 +28,7 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 * (2021.2) Honorable Mentioned Prize (top 16%), Mathematical Contest in Modeling(MCM) 
 * (2020.10) Dean's List, Xi'an Jiaotong University
 * (2020.10) Scholarship for Outstanding Students, Second Prize (rank 39/1200), Xi'an Jiaotong University
-* (2020.9) First Prize in Shaanxi Province, Contemporary Undergraduate Mathematical Contest in Model(CUMCM) 
+* (2020.9) First Prize in Shaanxi Province, Contemporary Undergraduate Mathematical Contest in Modeling(CUMCM) 
 
 # Hobbies
 
