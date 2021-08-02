@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, thanks for visiting my website! I am a junior undergraduate at Xi'an Jiaotong University, majoring in computer science and technology. My research interest is Reinforcement Learning and Deep Learning on Graphs currently. 
+Hi, thanks for visiting my website! I am a junior undergraduate at Xi'an Jiaotong University, majoring in computer science and technology. Currently, my research interest is Reinforcement Learning and Deep Learning on Graphs. 
 
 # Education
 
