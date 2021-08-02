@@ -15,14 +15,14 @@ tags:
 
 * 
   $$
-  \begin{align}
+  \begin{aligned}
   E_{A\sim \pi}[b\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial\theta}]&=b\cdot E_{A\sim\pi}[\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]\\
   &=b\cdot\sum_a\pi(a\vert s;\theta)\cdot[\frac{1}{\pi(a\vert s;\theta)}\cdot\frac{\partial\pi(a\vert s;\theta)}{\partial \theta}]\\
   &=b\cdot\sum_a\frac{\partial \pi(a\vert s;\theta)}{\partial \theta}\\
   &=b\cdot\frac{\sum_a\pi(a\vert s;\theta)}{\partial \theta}\\
   &=b\cdot \frac{\partial 1}{\partial \theta}\\
   &=0
-  \end{align}
+  \end{aligned}
   $$
 
 * 
