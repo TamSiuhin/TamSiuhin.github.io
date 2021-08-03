@@ -72,7 +72,7 @@ same as single-agent reinforcement learning
 
 *  Each agent has its own policy network (actor): $$\pi(a^i\vert o^i;\theta^i)$$
 * The central controller has $n$ value networks (critic): $$q(o,a;w^i)$$
-* **Centralized Training:** During training, the central controller knows all the agents' observation, actions, and rewards
+* **Centralized Training:** During training, the central controller knows all the agents' observation, actions and rewards
 
 * **Decentralized Execution:** During execution, the central controller and its value networks are not used
 
