@@ -32,10 +32,10 @@ if $b$ is **independent** of $A$, then $E_{A\sim\pi}[b\cdot\frac{\partial \ln\pi
 * Policy Gradient
 
 $$
-\begin{align}
+\begin{aligned}
 \frac{\partial V_\pi(s)}{\partial \theta}&=E_{A\sim\pi}[Q_\pi(s,A)\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]-E_{A\sim\pi}[b\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]\\
 &=E_{A\sim\pi}[\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}(Q_\pi(s,A)-b)]
-\end{align}
+\end{aligned}
 $$
 
 ### Monte Carlo Approximation
@@ -348,7 +348,7 @@ $$
 * A2C uses m-step TD target(with bootstrapping)
 
 $$
-y_t=\sum_{i=0}^{m-1}\gamma^i\cdot r){t+i}+\gamma^m\cdot v(s_{t+m};w)
+y_t=\sum_{i=0}^{m-1}\gamma^i\cdot r_{t+i}+\gamma^m\cdot v(s_{t+m};w)
 $$
 
 * REINFORCE uses observed return (without bootstrapping)
