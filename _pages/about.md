@@ -22,7 +22,7 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 
 * (2021.3-present) **National Undergraduate Research Program**, Xi'an Jiaotong University<br>
   Topic: Intelligent formation control based purely on vision<br> 
-  Advisor: liangjun Ke
+  Advisor: Liangjun Ke
 
 # Honors and Awards
 
