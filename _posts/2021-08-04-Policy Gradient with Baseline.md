@@ -124,17 +124,28 @@ $$
 $$
 
 while $-\delta_t=(u_t-v(s_t;w))$
+
 $$
 \theta\leftarrow \theta+\beta\cdot\delta_t\cdot \frac{\partial \ln\pi(a_t\vert s_t;\theta)}{\partial \theta}
 $$
 
 ### Update Value Network
 
-* $v(s_t;w)$ is an approximation to $V_\pi(s_t)=E[U_t\vert s_t]$
-* Prediction error $$\delta_t=v(s_t;w)-u_t$$
-* Gradient $$\frac{\partial \delta_t^2/2}{\partial w}=\delta_t\cdot\frac{\partial v(s_t;w)}{\partial w}$$
+* $v(s_t;w)$ is an approximation to 
 
-* Gradient descent $$w\leftarrow w-\alpha\cdot \frac{\partial v(s_t;w)}{\partial w}$$
+$$V_\pi(s_t)=E[U_t\vert s_t]$$
+
+* Prediction error 
+
+$$\delta_t=v(s_t;w)-u_t$$
+
+* Gradient 
+
+$$\frac{\partial \delta_t^2/2}{\partial w}=\delta_t\cdot\frac{\partial v(s_t;w)}{\partial w}$$
+
+* Gradient descent 
+
+$$w\leftarrow w-\alpha\cdot \frac{\partial v(s_t;w)}{\partial w}$$
 
 ## Advantage Actor-Critic (A2C)
 
