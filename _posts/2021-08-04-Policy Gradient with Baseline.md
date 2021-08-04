@@ -15,6 +15,7 @@ tags:
 
 * 
   $$
+  \begin{align}
   \begin{aligned}
   E_{A\sim \pi}[b\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial\theta}]&=b\cdot E_{A\sim\pi}[\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]\\
   &=b\cdot\sum_a\pi(a\vert s;\theta)\cdot[\frac{1}{\pi(a\vert s;\theta)}\cdot\frac{\partial\pi(a\vert s;\theta)}{\partial \theta}]\\
@@ -23,6 +24,7 @@ tags:
   &=b\cdot \frac{\partial 1}{\partial \theta}\\
   &=0
   \end{aligned}
+  \end{align}
   $$
 
 so that we have this **theorem**
@@ -32,10 +34,12 @@ if $b$ is **independent** of $A$, then $E_{A\sim\pi}[b\cdot\frac{\partial \ln\pi
 * Policy Gradient
 
 $$
+\begin{align}
 \begin{aligned}
 \frac{\partial V_\pi(s)}{\partial \theta}&=E_{A\sim\pi}[Q_\pi(s,A)\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]-E_{A\sim\pi}[b\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]\\
 &=E_{A\sim\pi}[\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}(Q_\pi(s,A)-b)]
 \end{aligned}
+\end{align}
 $$
 
 ### Monte Carlo Approximation
