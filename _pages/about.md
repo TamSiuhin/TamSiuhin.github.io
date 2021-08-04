@@ -21,7 +21,7 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
   Advisor: Lek Hsiang Hui
 
 * (2021.3-present) **National Undergraduate Research Program**, Xi'an Jiaotong University<br>
-  Topic: Intelligent formation control based purely on vision<br> 
+  Topic: Intelligent formation control system based purely on vision<br> 
   Advisor: Liangjun Ke
 
 # Honors and Awards
