@@ -17,7 +17,7 @@ I am a third-year undergraduate student in computer science at Xi'an Jiaotong Un
 # Academic Experiences
 
 * (2021.5-2021.7) **Summer Workshop**, Nation University of Singapore<br> 
-  Topic: Web Mining, Project: Twitter Bot Detextion<br>
+  Topic: Web Mining, Project: Twitter Bot Detection<br>
   Advisor: Lek Hsiang Hui
 
 * (2021.3-present) **National Undergraduate Research Program**, Xi'an Jiaotong University<br>
