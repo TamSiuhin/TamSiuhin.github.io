@@ -15,14 +15,14 @@ tags:
 
 * 
   $$
-  \begin{align}
+  \begin{aligned}
   E_{A\sim \pi}[b\cdot\frac{\partial \ln\pi(A\vert s;\theta)}{\partial\theta}]&=b\cdot E_{A\sim\pi}[\frac{\partial \ln\pi(A\vert s;\theta)}{\partial \theta}]\\
   &=b\cdot\sum_a\pi(a\vert s;\theta)\cdot[\frac{1}{\pi(a\vert s;\theta)}\cdot\frac{\partial\pi(a\vert s;\theta)}{\partial \theta}]\\
   &=b\cdot\sum_a\frac{\partial \pi(a\vert s;\theta)}{\partial \theta}\\
   &=b\cdot\frac{\sum_a\pi(a\vert s;\theta)}{\partial \theta}\\
   &=b\cdot \frac{\partial 1}{\partial \theta}\\
   &=0
-  \end{align}
+  \end{aligned}
   $$
 
 so that we have this **theorem**
@@ -123,7 +123,7 @@ $$
 \theta\leftarrow \theta+\beta\cdot\frac{\partial \ln\pi(a_t\vert s_t;\theta)}{\partial \theta}\cdot (u_t-v(s_t;w))
 $$
 
-while $-\delta_t=(u_t-v(s_t;w))$
+while $$-\delta_t=(u_t-v(s_t;w))$$
 
 $$
 \theta\leftarrow \theta+\beta\cdot\delta_t\cdot \frac{\partial \ln\pi(a_t\vert s_t;\theta)}{\partial \theta}
