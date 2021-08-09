@@ -116,8 +116,14 @@ $$
 
 #### It may not converge!
 
-* If $i^{th}$ agent found $$\theta_*^i = \arg\max_{\theta^i} J^i(\theta^1,...,\theta^n)$$
+* If $i^{th}$ agent found
+
+  $$
+  \theta_*^i = \arg\max_{\theta^i} J^i(\theta^1,...,\theta^n)
+  $$
+
 * Now, another agent changes its policy 
+
 * $\theta_*^i$ is no longer the best policy of the $i^{th}$ agent, the $i^{th}$ agent has to find a new $\theta^i$
 
 * The other agent's objective functions will change, and therefore they will change their policy
