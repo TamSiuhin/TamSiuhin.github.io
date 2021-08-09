@@ -7,7 +7,7 @@ tags:
   - Centralize & Decentralize
 ---
 
-# Multi-Agent Reinforcement Learning: Centralized vs. Decentralized
+# Multi-Agent Reinforcement Learning-Centralized vs. Decentralized
 
 ## Architectures
 
